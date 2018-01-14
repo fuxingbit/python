@@ -17,9 +17,9 @@
 
 f = open("yesterday2", 'w', encoding="utf-8")
 
-f.write("hello 1\n")
-f.write("hello 2\n")
-f.write("hello 3\n")
+# f.write("hello 1\n")
+# f.write("hello 2\n")
+# f.write("hello 3\n")
 
 
 

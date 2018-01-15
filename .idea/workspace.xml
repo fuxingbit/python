@@ -407,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516029044947</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="0115">
+      <created>1516029063089</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1516029063089</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -478,7 +485,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0114" />
-    <option name="LAST_COMMIT_MESSAGE" value="0114" />
+    <MESSAGE value="0115" />
+    <option name="LAST_COMMIT_MESSAGE" value="0115" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

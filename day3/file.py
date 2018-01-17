@@ -22,17 +22,6 @@ f = open("yesterday2", 'w', encoding="utf-8")
 # f.write("hello 3\n")
 
 
-
-
-
-
-
-
-
-
-
-
-
 # print(f.readlines())
 
 # for line in f.readlines():

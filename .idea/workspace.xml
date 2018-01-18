@@ -83,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/day4/decorator4.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="139">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -421,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516291140711</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="0118">
+      <created>1516291169421</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1516291169421</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -495,7 +502,8 @@
     <MESSAGE value="0114" />
     <MESSAGE value="0115" />
     <MESSAGE value="0117" />
-    <option name="LAST_COMMIT_MESSAGE" value="0117" />
+    <MESSAGE value="0118" />
+    <option name="LAST_COMMIT_MESSAGE" value="0118" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -715,7 +723,7 @@
     <entry file="file://$PROJECT_DIR$/day4/decorator4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>

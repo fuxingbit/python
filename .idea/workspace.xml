@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ea756f0-0e5a-4ad9-b05b-6fdde2aed32c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4/decorator1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4/decorator2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4/decorator3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4/decorator4.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day4/decorator.py" afterPath="$PROJECT_DIR$/day4/decorator.py" />
     </list>
     <ignored path="C:\python\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,8 +82,8 @@
       <file leaf-file-name="decorator4.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day4/decorator4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+            <state relative-caret-position="139">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -420,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516203634737</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="0117">
+      <created>1516291140711</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1516291140711</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -713,8 +714,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day4/decorator4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        <state relative-caret-position="139">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding />
         </state>
       </provider>

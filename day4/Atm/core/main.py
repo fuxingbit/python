@@ -3,4 +3,5 @@
 # @Email   : zjning95@126.com
 # @File    : main.py
 
-print("Welcome to my atm")
+def login():
+	print("Welcome to my atm")

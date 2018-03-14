@@ -106,3 +106,31 @@
 #数字转十六进制
 
 # hex(255)
+#十进制转十六进制
+#hex(255)
+
+#十进制转八进制
+# oct(16)
+
+#返回2的8次方
+#pow(2,8)
+
+
+#round(1.2222, 2)
+
+#字典排序，按键排序
+# a = {6:2, 8:3, -4:5}
+# print(sorted(a.items()))
+#按值排序
+#print(sorted(a.items(), key=lambda x:x[1]))
+
+# a = [1, 2, 3, 4]
+# b = ['a', 'b', 'c', 'd']
+#
+# for i in zip(a, b):
+#     print(i)
+
+
+# import decorator
+
+__import__('decorator')

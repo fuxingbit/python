@@ -14,19 +14,21 @@
 # from module_alex import *
 # from module_alex import logging as logging_alex
 
-import sys
+import sys,os
 
-print(sys.path)
+x = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+sys.path.append(x)
 
 import module_alex
 
 
-print(name)
-say()
+print(module_alex.name)
+module_alex.say()
 
-def logging():
-    print("in the main")
-
-logging()
-
-logging_alex()
+# def logging():
+#     print("in the main")
+#
+# logging()
+#
+# logging_alex()

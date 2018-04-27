@@ -4,3 +4,6 @@
 # @File    : p_test.py
 
 import package_test
+
+
+package_test.test1.test()

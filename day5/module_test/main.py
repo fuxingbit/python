@@ -11,9 +11,14 @@
 
 
 
-from module_alex import *
+# from module_alex import *
+# from module_alex import logging as logging_alex
 
-from module_alex import logging as logging_alex
+import sys
+
+print(sys.path)
+
+import module_alex
 
 
 print(name)

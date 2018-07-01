@@ -2,3 +2,5 @@
 # @Author  : Alienzjn
 # @Email   : zjning95@126.com
 # @File    : __init__.py.py
+
+from . import test1

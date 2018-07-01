@@ -11,3 +11,4 @@
 # sys.platform       返回操作系统平台名称
 # sys.stdout.write('please:')
 # val = sys.stdin.readline()[:-1]
+

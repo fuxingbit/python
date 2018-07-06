@@ -9,6 +9,7 @@ class Dog(object):
     def eat(self, food):
         print("%s is eatting ...%s " % (self.name, food))
 
+
 def bulk(self):
     print("%s is yelling...." % self.name)
 
@@ -20,9 +21,9 @@ def bulk(self):
 name = ['alex', 'jack']
 data = {}
 try:
-    #data['name']
-    #name[2]
-    #open("test.txt")
+    # data['name']
+    # name[2]
+    # open("test.txt")
     a = 1
     print(a)
 

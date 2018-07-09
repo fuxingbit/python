@@ -9,8 +9,12 @@ import importlib
 
 aa = importlib.import_module('lib.aa')
 
-print(aa.C().name)
+# print(aa.C().name)
 
+obj = aa.C()
+
+assert type(obj.name) is str
+print("enen")
 # mod = __import__("lib.aa") # lib
 # obj = mod.aa.C()
 # print(obj.name)

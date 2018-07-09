@@ -14,3 +14,48 @@
     setattr(obj,str,val)
     hasattr()
     delattr()
+
+__new__()  先于__init__执行
+
+class Foo(object):
+    def __call__()
+        print 'call'
+
+Foo()()  #执行 call 方法
+
+__metaclass__ 用来定义这个类以怎样的形式被创建
+
+try
+    ...
+except (ValueError, keyError), e  # in 2.7
+except (ValueError, keyError) as e  # in 3.x
+
+except Exception as e:  #放在异常处理最后
+else: #没发生异常就执行
+
+finally： #无论如何都执行
+
+raise #触发自己的异常
+
+段言：
+assert type(obj.name) is str
+print("enen")
+
+socker:  #网络协议本质上是对数据的收发
+
+服务端
+
+server = socket.socket(AF.INET, sock.SOCK_STREAM)
+server.bind(localhost, 9090)
+server.listen()
+
+while True:
+    conn, addr = server.accept()  #阻塞
+
+    while True:
+        print("new conn", addr)
+        data = conn.recv(1024)
+        if not data:
+            break
+        print(data)
+        conn.send(data.upper())

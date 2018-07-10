@@ -13,12 +13,9 @@ aa = importlib.import_module('lib.aa')
 
 obj = aa.C()
 
+# 断言
 assert type(obj.name) is str
 print("enen")
 # mod = __import__("lib.aa") # lib
 # obj = mod.aa.C()
 # print(obj.name)
-
-
-
-

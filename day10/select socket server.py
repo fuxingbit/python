@@ -34,7 +34,8 @@ while True:
                 print("收到数据", data)
                 msg_dic[r].put(data)
 
-                outputs.append(r)  # 放入返回的连接队列里
+                if r not in outputs:
+                    outputs.append(r)  # 放入返回的连接队列里
                 # r.send(data)
                 # print("send done .....")
             else:
@@ -48,13 +49,19 @@ while True:
                 del msg_dic[r]  # 清理已断开的连接
 
     for w in writeable:  # 要返回给客户端的连接列表
-        w.send(msg_dic[w].get())  # 返回给客户端原数据
-
-        outputs.remove(w)  # 确保下次循环的时候writeable,不返回这个已经处理完的连接
+        try:
+            # w.send(msg_dic[w].get())  # 返回给客户端原数据
+            next_msg = msg_dic[w].get_nowait()
+        except queue.Empty:
+            print("queue is empty...")
+            outputs.remove(w)  # 确保下次循环的时候writeable,不返回这个已经处理完的连接
+        else:
+            print("sending msg .....", next_msg)
+            w.send(next_msg)
 
     for e in exceptional:
         if e in outputs:
             outputs.remove(e)
-
+        e.close()
         inputs.remove(e)
         del msg_dic[e]

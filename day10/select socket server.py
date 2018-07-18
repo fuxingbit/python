@@ -10,7 +10,7 @@ server = socket.socket()
 server.bind(('localhost', 9009))
 server.listen(100)
 
-server.setblocking(False) # 不阻塞
+server.setblocking(False)  # 不阻塞
 
 msg_dic = {}
 inputs = [server, ]

@@ -81,7 +81,7 @@ error_info = analysis_log(tomcat_log)
 if error_info:
     print(error_info)
     phone = "17319329936,15311493165,15001030176"
-    text = "【253云通讯】您好，你的tomcat-task实例有报错信息，请尽快查看！"
+    text = "【253云通讯】您好，你的tomcat-task实例有报错信息，请尽快查看!"
 
     print(sms.send_sms(text, phone))
     print('短信发送成功')

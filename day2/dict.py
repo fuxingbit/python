@@ -1,9 +1,9 @@
-#Author: Alienzjn
+#Author: Jenliver
 
 info = {
     'str1':"zjn",
     'str2':"zjning",
-    'str3':"alienzjn",
+    'str3':"Jenliver",
     'str4':"Alien",
 }
 i = {

@@ -1,4 +1,4 @@
-#Author: Alienzjn
+#Author: Jenliver
 import getpass
 
 _name = 'zjn'

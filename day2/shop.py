@@ -1,4 +1,4 @@
-#Author: Alienzjn
+#Author: Jenliver
 
 product_list = [
     ('Iphone', 5800),

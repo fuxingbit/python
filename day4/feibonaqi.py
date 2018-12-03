@@ -1,5 +1,5 @@
 # @Time    : 2018/1/21 22:24
-# @Author  : Alienzjn
+# @Author  : Jenliver
 # @Email   : zjning95@126.com
 # @File    : feibonaqi.py
 

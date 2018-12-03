@@ -1,4 +1,4 @@
-#Author: Alienzjn
+#Author: Jenliver
 
 # open file
 # data = open("yesterday", encoding="utf-8").read()

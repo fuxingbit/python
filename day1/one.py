@@ -1,4 +1,3 @@
-
 name = input("name:")
 age = input("age:")
 
@@ -7,4 +6,5 @@ info = '''
 name:%s
 age:%s
 ''' % (name, name, age)
+
 print(info)

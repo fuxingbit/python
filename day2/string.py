@@ -1,6 +1,6 @@
-#Author: Alienzjn
+#Author: Jenliver
 
-name = "My \tname is alienzjn"
+name = "My \tname is Jenliver"
 
 print(name.capitalize())     #首字母大写
 print(name.count("n"))       #字符中有2个n

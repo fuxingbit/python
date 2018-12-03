@@ -1,4 +1,4 @@
-#Author: Alienzjn
+#Author: Jenliver
 #集合
 
 list_1 = [1, 4, 5, 6, 4]
